@@ -1,5 +1,5 @@
 {
-  "name": "projects",
+  "name": "Seekers",
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
@@ -17,5 +17,8 @@
     "mysql2": "^2.3.3",
     "nodemon": "^2.0.15",
     "xmlhttprequest": "^1.8.0"
+  },
+  "engines": {
+    "node": "16.14.0"
   }
 }
