@@ -26,10 +26,10 @@ conn.connect(function(err){
     }
 })
 
-const port = process.env.PORT
+const port = process.env.PORT || 80;
 // app will be our express instance
 const app = express();
-app.set('port', port);
+app.listen(port, () => console.log(`Server is listening on port ${port}...`));
 
 // Serve static files from the public dir
 // if you do not include this, then navigation to the localhost will not show anything
