@@ -1,0 +1,92 @@
+body{
+    background-image: url('bg.png') ;
+}
+
+.form-control {
+    max-width: 350px;
+}
+
+.UandP {
+
+    background-color: rgb(181, 132, 204, 0.2);
+    box-shadow: -20px 20px 20px rgba(28, 2, 41, 0.2);
+    border-radius: 25px;
+    position: relative;
+    width: 500px;
+    margin: -10px 0 0 -220px;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+
+    
+}
+
+#message {
+    margin-top: 10px;
+}
+
+.input-group-prepend {
+    width: 110px;
+}
+
+#username1 {
+    margin: auto;
+    width: 70%;
+    /* padding: 20px; */
+    padding-top: 25px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 0px;
+}
+
+#password1 {
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
+
+#sbutton {
+    text-align: center;
+    /* border: 1px solid #4CAF50; */
+}
+
+#login {
+    width: 100px;
+}
+
+#reg {
+    text-align: center;
+    padding: 15px;
+
+}
+
+#name {
+    text-align: center;
+    margin-top: 100px;
+}
+
+div > h1 {
+    font-size: 75px; 
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+	background: linear-gradient(to right, #a538f3 0%, lightblue 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-weight: bold;
+}
+
+#introduction {
+    text-align: center;
+    margin: 70px;
+
+
+}
+
+div > h2 {
+    font-size: 40px;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+	background: linear-gradient(to right, #a538f3 0%, lightblue 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+    font-weight: bold;
+
+}

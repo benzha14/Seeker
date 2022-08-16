@@ -1,0 +1,108 @@
+/* get Montserrat font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Ubuntu:wght@300&display=swap');
+
+a {
+    margin-top: 0;
+    padding-top: 0;
+    line-height: 20px;
+}
+
+body {
+    background-image: url('bg.png');
+    /* background-color: red; */
+    /* color: red; */
+    /* font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    font-family: 'Montserrat', 'sans-serif';
+}
+
+form {
+    align-items: center;
+    background-color: rgba(210, 184, 252, 0.755);
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin: auto;
+    max-width: 500px;
+    padding: 10px;
+    padding-top: 30px;
+}
+
+form div {
+    margin: 0;
+    padding: 0;
+}
+
+form p, form a {
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    color:rgb(207, 173, 255);
+    text-align: center;
+}
+
+input {
+    display: block;
+    height: 30px;
+    width: 250px;
+    z-index: 250;
+}
+
+label {
+    background-color: none;
+    /* border: 1px solid black; */
+    border-radius: 4px;
+    display: block;
+    height: 100%;
+    line-height: 35px;
+    margin: auto;
+    width: 250px;
+    text-align: center;
+    /* transform: translateY(5px); */
+    z-index: -1;
+}
+
+.register-box {
+    display: flex;
+    flex-direction: column;
+    min-width: 400px;
+    justify-content: center;
+}
+
+#message {
+    display: none;
+    text-align: center;
+}
+
+#reg {
+    text-align: center;
+}
+
+/* switch to mobile view */
+@media screen and (min-width: 520px) {
+
+    form {
+        background-color: rgba(210, 184, 252, 0.332);
+    }
+
+    form div {
+        height: 35px;
+    }
+
+    input {
+        display: block;
+        z-index: 0;
+    }
+    
+    label {
+        background-color: rgba(237, 237, 237, 0.875);
+        border-radius: 4px;
+        float: left;
+        transform: none;
+        width: 175px;
+        z-index: 0;
+    }
+}
