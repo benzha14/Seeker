@@ -26,8 +26,10 @@ conn.connect(function(err){
     }
 })
 
+const port = process.env.PORT
 // app will be our express instance
 const app = express();
+app.set('port', port);
 
 // Serve static files from the public dir
 // if you do not include this, then navigation to the localhost will not show anything
