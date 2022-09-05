@@ -1,4 +1,4 @@
-# 2803_project
+# 2803_project: Seeker
 This project looks up deals for PC games. 
 The user can choose to save the deal on their profile page.
 api(s) used:
@@ -28,5 +28,7 @@ create table saved_deals (
   banner_link varchar(255) not null,
   primary key (id)
 ) 
+
+Made by Benson Zhang & Brandon Schmitz
 
 
