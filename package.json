@@ -14,11 +14,13 @@
     "bcryptjs": "^2.4.3",
     "express": "^4.17.3",
     "got": "^11.8.2",
-    "mysql2": "^2.3.3",
-    "nodemon": "^2.0.15",
+    "mongodb": "^6.8.0",
+    "mysql2": "^3.11.0",
+    "nodemon": "^3.1.4",
+    "simple-update-notifier": "^2.0.0",
     "xmlhttprequest": "^1.8.0"
   },
   "engines": {
-    "node": "16.14.0"
+    "node": "20.16.0"
   }
 }
