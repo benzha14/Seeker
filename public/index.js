@@ -22,7 +22,7 @@ function login(event) {
     xhr.onload = function() {
         var loginResponse = xhr.response;
         if(loginResponse.success) {
-            window.location.replace("/main");
+            window.location.replace("/main.html");
         } 
     }
     
